@@ -1,0 +1,9 @@
+name = "api"
+
+compatibility_date = "2024-04-01"
+compatibility_flags = ['nodejs_compat']
+assets = { directory = "public" }
+
+kv_namespaces = [
+  { binding = "nikiv-hono-test-api", preview_id = "your-id", id = "your-id" },
+]
